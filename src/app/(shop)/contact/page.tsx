@@ -2,7 +2,7 @@ import NextLink from 'next/link';
 // Config
 import { titleFont } from '@/config';
 
-export default function () {
+export default function Contact() {
   return (
     <div className="flex flex-col pt-10 sm:pt-10 sm:mx-20 pb-10">
 

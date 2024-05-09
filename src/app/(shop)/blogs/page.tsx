@@ -7,7 +7,7 @@ const blogs: any = [
   { id: '0003', name: 'Test 3', desc: '[Test-3]: Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.', slug: 'test-3' },
 ];
 
-export default function() {
+export default function Blogs() {
   return (
     <div>
       <h1 className='font-bold text-4xl my-20 text-center'>Nuestros Artículos</h1>

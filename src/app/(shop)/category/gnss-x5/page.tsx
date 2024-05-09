@@ -10,7 +10,7 @@ interface Props {
 
 const products = productsDB.filter( product => product.category === 'gnss-x5' );
 
-export default function({ params }: Props) {
+export default function GNSS({ params }: Props) {
   return (
     <div className='mt-10'>
       <h1 className='text-6xl text-mupu font-bold mb-20'>

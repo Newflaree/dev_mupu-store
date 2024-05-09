@@ -1,7 +1,7 @@
 // Components
 import { Building } from '@/components';
 
-export default function() {
+export default function AdminProducts() {
 
   return <Building />
 }

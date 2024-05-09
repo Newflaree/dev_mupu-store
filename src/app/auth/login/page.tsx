@@ -3,7 +3,7 @@ import NextLink from 'next/link';
 // Config
 import { titleFont } from '@/config';
 
-export default function () {
+export default function AuthLogin() {
   return (
     <div className="flex flex-col min-h-screen pt-10 sm:pt-10">
 

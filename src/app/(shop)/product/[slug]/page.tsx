@@ -19,7 +19,7 @@ interface Props {
   }
 }
 
-export default function({ params }: Props) {
+export default function Product({ params }: Props) {
   const { slug } = params;
   const product = productsDB.find( product => product.slug === slug );
 

@@ -4,7 +4,7 @@ import NextLink from 'next/link';
 import { titleFont } from '@/config';
 
 
-export default function () {
+export default function AuthRegister() {
   return (
     <div className="flex flex-col min-h-screen pt-10 sm:pt-10 pb-10">
       <h1 className={ `${ titleFont.className } text-4xl mb-10 text-center` }>

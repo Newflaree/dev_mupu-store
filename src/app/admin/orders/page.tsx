@@ -9,7 +9,7 @@ import { orders } from '@/seed/orders';
 
 
 
-export default function() {
+export default function AdminOrders() {
   const pathname = usePathname();
 
   return (

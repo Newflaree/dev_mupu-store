@@ -6,7 +6,7 @@ const storeConfig = [
   }
 ];
 
-export default function() {
+export default function AdminConfig() {
   return (
     <div>
       <h1 className='text-5xl font-bold'>Configuración de la tienda</h1>

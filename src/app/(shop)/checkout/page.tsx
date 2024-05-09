@@ -15,7 +15,7 @@ const productsInCart = [
   productsDB[3],
 ];
 
-export default function() {
+export default function Checkout() {
   return (
     <div
       className={`

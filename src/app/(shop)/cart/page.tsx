@@ -16,7 +16,7 @@ const productsInCart = [
   productsDB[3],
 ];
 
-export default function() {
+export default function Cart() {
   //redirect( '/empty' )
 
 

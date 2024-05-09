@@ -10,7 +10,7 @@ interface Props {
 
 const products = productsDB.filter( product => product.category === 'combos' );
 
-export default function({ params }: Props) {
+export default function Combos({ params }: Props) {
   return (
     <div className='mt-10'>
       <h1 className='text-6xl text-mupu font-bold mb-20'>
